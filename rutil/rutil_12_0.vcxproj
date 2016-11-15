@@ -451,7 +451,10 @@
     <ClCompile Include="GeneralCongestionManager.cxx" />
     <ClCompile Include="GenericIPAddress.cxx" />
     <ClCompile Include="HeapInstanceCounter.cxx" />
+<<<<<<< HEAD
     <ClCompile Include="hep\HepAgent.cxx" />
+=======
+>>>>>>> Added HOMER SIP capture support for Windows
     <ClCompile Include="hep\ResipHep.cxx" />
     <ClCompile Include="KeyValueStore.cxx" />
     <ClCompile Include="dns\LocalDns.cxx" />
@@ -540,7 +543,10 @@
     <ClInclude Include="GenericIPAddress.hxx" />
     <ClInclude Include="HashMap.hxx" />
     <ClInclude Include="HeapInstanceCounter.hxx" />
+<<<<<<< HEAD
     <ClInclude Include="hep\HepAgent.hxx" />
+=======
+>>>>>>> Added HOMER SIP capture support for Windows
     <ClInclude Include="hep\ResipHep.hxx" />
     <ClInclude Include="KeyValueStore.hxx" />
     <ClInclude Include="Inserter.hxx" />

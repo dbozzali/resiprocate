@@ -14,7 +14,11 @@ namespace resip
 class HEPSipMessageLoggingHandler : public Transport::SipMessageLoggingHandler
 {
    public:
+<<<<<<< HEAD
       HEPSipMessageLoggingHandler(SharedPtr<HepAgent> agent);
+=======
+      HEPSipMessageLoggingHandler(const Data &captureHost, int capturePort, int captureAgentID);
+>>>>>>> Added HOMER SIP capture support for Windows
       virtual ~HEPSipMessageLoggingHandler();
       virtual void outboundMessage(const Tuple &source, const Tuple &destination, const SipMessage &msg);
       virtual void outboundRetransmit(const Tuple &source, const Tuple &destination, const SendData &data);

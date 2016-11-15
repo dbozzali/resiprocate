@@ -61,8 +61,11 @@
     <ClCompile Include="WinCompat.cxx" />
     <ClCompile Include="XMLCursor.cxx" />
     <ClCompile Include="hep\ResipHep.cxx" />
+<<<<<<< HEAD
     <ClCompile Include="hep\HepAgent.cxx" />
     <ClCompile Include="GenericIPAddress.cxx" />
+=======
+>>>>>>> Added HOMER SIP capture support for Windows
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="XMLCursor.hxx" />
@@ -154,6 +157,9 @@
     <ClInclude Include="WinCompat.hxx" />
     <ClInclude Include="WinLeakCheck.hxx" />
     <ClInclude Include="hep\ResipHep.hxx" />
+<<<<<<< HEAD
     <ClInclude Include="hep\HepAgent.hxx" />
+=======
+>>>>>>> Added HOMER SIP capture support for Windows
   </ItemGroup>
 </Project>

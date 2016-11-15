@@ -809,8 +809,12 @@ ReproRunner::createSipStack()
    {
       int capturePort = mProxyConfig->getConfigInt("CapturePort", 9060);
       int captureAgentID = mProxyConfig->getConfigInt("CaptureAgentID", 2001);
+<<<<<<< HEAD
       SharedPtr<HepAgent> agent(new HepAgent(captureHost, capturePort, captureAgentID));
       mSipStack->setTransportSipMessageLoggingHandler(SharedPtr<HEPSipMessageLoggingHandler>(new HEPSipMessageLoggingHandler(agent)));
+=======
+      mSipStack->setTransportSipMessageLoggingHandler(SharedPtr<HEPSipMessageLoggingHandler>(new HEPSipMessageLoggingHandler(captureHost, capturePort, captureAgentID)));
+>>>>>>> Added HOMER SIP capture support for Windows
    }
    else if(mProxyConfig->getConfigBool("EnableSipMessageLogging", false))
    {

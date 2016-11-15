@@ -97,7 +97,10 @@ librutil_la_SOURCES = \
 	stun/Stun.cxx \
 	stun/Udp.cxx \
 	\
+<<<<<<< HEAD
 	hep/HepAgent.cxx \
+=======
+>>>>>>> Added HOMER SIP capture support for Windows
 	hep/ResipHep.cxx
 
 if USE_SSL
@@ -201,7 +204,10 @@ nobase_rutilinclude_HEADERS = compat.hxx \
 	ProducerFifoBuffer.hxx \
 	DinkyPool.hxx \
 	ConsumerFifoBuffer.hxx \
+<<<<<<< HEAD
 	hep/HepAgent.hxx \
+=======
+>>>>>>> Added HOMER SIP capture support for Windows
 	hep/ResipHep.hxx
 
 
